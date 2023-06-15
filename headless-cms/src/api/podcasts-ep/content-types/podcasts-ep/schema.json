@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "podcasts_eps",
+  "info": {
+    "singularName": "podcasts-ep",
+    "pluralName": "podcasts-eps",
+    "displayName": "Podcasts ep"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Videos": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}
